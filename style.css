@@ -44,7 +44,7 @@ li:last-child {
   margin-right: 0;
 }
 
-a {
+.index a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ a {
   transition-duration: 0.5s;
 }
 
-a:hover {
+.index a:hover {
   background-color: rgba(255, 255, 255, 1);
   border-style: double;
 }
@@ -80,7 +80,7 @@ a:hover {
   margin: 15px 10%;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
-  color: black;
+  color: #132c42;
   border: solid 4px white;
   border-radius: 10px;
 }
@@ -88,4 +88,23 @@ a:hover {
 .sketch:hover {
   border-color: gray;
   background-color: white;
+}
+
+.sketch a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sketch a:hover {
+  color: orange;
+}
+
+.sketch h2 {
+  color: black;
+}
+
+.ip {
+  margin: 10px 0 0 20px;
+  color: white;
+  line-height: 1.5em;
 }
