@@ -44,6 +44,10 @@ li:last-child {
   margin-right: 0;
 }
 
+li.invisible_line {
+  display: none;
+}
+
 .index a {
   display: flex;
   justify-content: center;
