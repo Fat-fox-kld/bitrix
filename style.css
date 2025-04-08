@@ -44,7 +44,7 @@ li:last-child {
   margin-right: 0;
 }
 
-li.invisible_line {
+.invisible_line {
   display: none;
 }
 
